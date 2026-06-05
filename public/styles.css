@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: radial-gradient(circle at top, #14193b, #05060b);
+  color: #f5f5ff;
+}
+
+#app {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 18px;
+  background: rgba(15, 20, 40, 0.9);
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 1.4rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #7cf5ff;
+}
+
+.card {
+  margin-top: 20px;
+  padding: 18px 20px;
+  background: rgba(20, 26, 55, 0.95);
+  border-radius: 18px;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(12px);
+}
+
+.hidden {
+  display: none;
+}
+
+/* Buttons */
+
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 18px;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  transition:
+    transform 0.12s ease-out,
+    box-shadow 0.12s ease-out,
+    background 0.2s ease-out;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.4);
+}
+
+.btn.primary {
+  background: linear-gradient(135deg, #4af3c5, #2bb3ff);
+  color: #041019;
+}
+
+.btn.secondary {
+  background: linear-gradient(135deg, #ffdd6b, #ff9f3b);
+  color: #2b1600;
+}
+
+.btn.success {
+  background: linear-gradient(135deg, #7cff7c, #3bd66f);
+  color: #021507;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+}
+
+.btn:active {
+  transform: translateY(1px) scale(0.98);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* Course / section / unit cards */
+
+.course-card,
+.section-card,
+.unit-card,
+.lesson-card {
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #252b5a, #171b3a);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.course-title,
+.section-title,
+.unit-title {
+  font-weight: 700;
+}
+
+.course-meta,
+.section-meta,
+.unit-meta {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
