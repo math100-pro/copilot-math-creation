@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MathVerse</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <header class="top-bar">
+      <div class="logo">MathVerse</div>
+      <div class="user-info">
+        <span id="mp-display">MP: 0</span>
+        <span id="streak-display">Streak: 0🔥</span>
+      </div>
+    </header>
+
+    <main>
+      <section id="auth-section" class="card">
+        <h2>Sign in</h2>
+        <input id="email-input" type="email" placeholder="Email">
+        <input id="password-input" type="password" placeholder="Password">
+        <button class="btn primary" id="login-btn">Login</button>
+      </section>
+
+      <section id="courses-section" class="card hidden">
+        <h2>Math Courses</h2>
+        <div id="courses-list"></div>
+      </section>
+
+      <section id="section-section" class="card hidden">
+        <h2 id="section-title"></h2>
+        <div id="sections-list"></div>
+      </section>
+
+      <section id="unit-section" class="card hidden">
+        <h2 id="unit-title"></h2>
+        <div id="units-list"></div>
+      </section>
+
+      <section id="lesson-section" class="card hidden">
+        <h2 id="lesson-title"></h2>
+        <div id="lesson-content"></div>
+        <button class="btn success" id="complete-lesson-btn">Complete lesson +10 MP</button>
+      </section>
+
+      <section id="leaderboard-section" class="card hidden">
+        <h2>Leaderboard</h2>
+        <div id="leaderboard-list"></div>
+      </section>
+
+      <section id="ads-section" class="card">
+        <h2>Sponsored</h2>
+        <p id="ads-content">Ad: Upgrade to Premium for no ads!</p>
+        <button class="btn secondary" id="premium-btn">Go Premium</button>
+      </section>
+
+      <section id="admin-section" class="card hidden">
+        <h2>Admin Panel</h2>
+        <pre id="admin-code-view"></pre>
+      </section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
