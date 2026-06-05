@@ -1,0 +1,159 @@
+{
+  "courses": [
+    {
+      "id": "foundations",
+      "name": "Math Foundations",
+      "sections": [
+        {
+          "id": "numbers-operations",
+          "name": "Numbers & Operations",
+          "units": [
+            {
+              "id": "integers-1",
+              "name": "Integers I",
+              "lessons": [
+                { "id": "l1", "title": "What are integers?", "type": "concept" },
+                { "id": "l2", "title": "Comparing integers", "type": "practice" },
+                { "id": "l3", "title": "Adding integers", "type": "practice" },
+                { "id": "l4", "title": "Subtracting integers", "type": "practice" },
+                { "id": "l5", "title": "Integer word problems", "type": "challenge" }
+              ]
+            },
+            {
+              "id": "place-value",
+              "name": "Place Value",
+              "lessons": [
+                { "id": "l1", "title": "Place value basics", "type": "concept" },
+                { "id": "l2", "title": "Reading large numbers", "type": "practice" },
+                { "id": "l3", "title": "Rounding numbers", "type": "practice" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fractions-decimals",
+          "name": "Fractions & Decimals",
+          "units": [
+            {
+              "id": "fractions-1",
+              "name": "Fractions I",
+              "lessons": [
+                { "id": "l1", "title": "What is a fraction?", "type": "concept" },
+                { "id": "l2", "title": "Equivalent fractions", "type": "practice" },
+                { "id": "l3", "title": "Comparing fractions", "type": "practice" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "algebra",
+      "name": "Algebra Path",
+      "sections": [
+        {
+          "id": "linear-equations-1",
+          "name": "Linear Equations I",
+          "units": [
+            {
+              "id": "solve-x-plus-a-equals-b",
+              "name": "Solving x + a = b",
+              "lessons": [
+                { "id": "l1", "title": "What is a variable?", "type": "concept" },
+                { "id": "l2", "title": "Visualizing x + a = b", "type": "visual" },
+                { "id": "l3", "title": "Solving x + 3 = 7", "type": "practice" },
+                { "id": "l4", "title": "Balance method", "type": "visual" },
+                { "id": "l5", "title": "Number line method", "type": "visual" },
+                { "id": "l6", "title": "Mixed practice", "type": "challenge" }
+              ]
+            },
+            {
+              "id": "solve-ax-equals-b",
+              "name": "Solving ax = b",
+              "lessons": [
+                { "id": "l1", "title": "Multiplication as repeated addition", "type": "concept" },
+                { "id": "l2", "title": "Solving 3x = 12", "type": "practice" },
+                { "id": "l3", "title": "Division as inverse", "type": "concept" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "linear-equations-2",
+          "name": "Linear Equations II",
+          "units": [
+            {
+              "id": "two-step-equations",
+              "name": "Two-step equations ax + b = c",
+              "lessons": [
+                { "id": "l1", "title": "Undoing addition", "type": "concept" },
+                { "id": "l2", "title": "Undoing multiplication", "type": "concept" },
+                { "id": "l3", "title": "Solving 2x + 3 = 11", "type": "practice" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geometry",
+      "name": "Geometry Path",
+      "sections": [
+        {
+          "id": "lines-angles-shapes",
+          "name": "Lines, Angles, & Shapes",
+          "units": [
+            {
+              "id": "angles-1",
+              "name": "Angles I",
+              "lessons": [
+                { "id": "l1", "title": "Types of angles", "type": "concept" },
+                { "id": "l2", "title": "Measuring angles", "type": "practice" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trig",
+      "name": "Trigonometry Path",
+      "sections": [
+        {
+          "id": "right-triangle-trig",
+          "name": "Right Triangle Trig",
+          "units": [
+            {
+              "id": "soh-cah-toa",
+              "name": "SOH-CAH-TOA",
+              "lessons": [
+                { "id": "l1", "title": "Sine, cosine, tangent definitions", "type": "concept" },
+                { "id": "l2", "title": "Solving right triangles", "type": "practice" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calculus",
+      "name": "Calculus Path",
+      "sections": [
+        {
+          "id": "limits-continuity",
+          "name": "Limits & Continuity",
+          "units": [
+            {
+              "id": "limit-intuition",
+              "name": "Limit intuition",
+              "lessons": [
+                { "id": "l1", "title": "Approaching a point", "type": "visual" },
+                { "id": "l2", "title": "Left and right limits", "type": "concept" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
